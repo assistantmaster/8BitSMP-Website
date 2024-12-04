@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8BitSMP Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="top">
+            8 B i t S M P
+        </div>
+        <br>
+        <div class="dashboard">
+            <div>
+                <a class="links" href="./index.html">    Übersicht</a> <br>
+                <a class="links link_active" href="./Konfiguration.html">    Konfiguration</a> <br>
+                <a class="links" href="./Plugins.html">    Plugins</a> <br>
+                <a class="links" href="./Screenshots.html">    Screenshots</a> <br>
+                <a class="links" href="./Waypoints.html">    Waypoints</a> <br>
+                <a class="links" href="./Spieler.html">    Spieler</a>
+            </div>
+            <div class="margin"></div>
+            <div class="usage">
+                <div class="spielermanagement">
+                    <div class="spieler">
+                        <h3>server.properties</h3>
+                        <p>
+                            enable-jmx-monitoring=false <br>
+                            rcon.port=25575 <br>
+                            level-seed= <br>
+                            enable-command-block=false <br>
+                            gamemode=survival <br>
+                            enable-query=false <br>
+                            generator-settings={} <br>
+                            enforce-secure-profile=true <br>
+                            level-name=world <br>
+                            motd=A Minecraft Server <br>
+                            query.port=25565 <br>
+                            pvp=true <br>
+                            generate-structures=true <br>
+                            max-chained-neighbor-updates=1000000 <br>
+                            difficulty=hard <br>
+                            network-compression-threshold=256 <br>
+                            max-tick-time=60000 <br>
+                            require-resource-pack=false <br>
+                            max-players=20 <br>
+                            use-native-transport=true <br>
+                            online-mode=true <br>
+                            enable-status=true <br>
+                            allow-flight=false <br>
+                            initial-disabled-packs= <br>
+                            broadcast-rcon-to-ops=true <br>
+                            view-distance=32 <br>
+                            resource-pack-prompt= <br>
+                            server-ip=
+                            allow-nether=true <br>
+                            server-port=25565 <br>
+                            enable-rcon=false <br>
+                            sync-chunk-writes=true <br>
+                            op-permission-level=4 <br>
+                            prevent-proxy-connections=false <br>
+                            hide-online-players=false <br>
+                            resource-pack= <br>
+                            entity-broadcast-range-percentage=100 <br>
+                            simulation-distance=32 <br>
+                            rcon.password= <br>
+                            player-idle-timeout=0 <br>
+                            force-gamemode=false <br>
+                            debug=false <br>
+                            rate-limit=0 <br>
+                            hardcore=false <br>
+                            white-list=true <br>
+                            broadcast-console-to-ops=true <br>
+                            spawn-npcs=true <br>
+                            spawn-animals=true <br>
+                            function-permission-level=2 <br>
+                            initial-enabled-packs=vanilla <br>
+                            level-type=minecraft\:normal <br>
+                            text-filtering-config= <br>
+                            spawn-monsters=true <br>
+                            enforce-whitelist=false <br>
+                            spawn-protection=0 <br>
+                            resource-pack-sha1= <br>
+                            max-world-size=29999984 <br>
+                        </p>
+                    </div>
+                    <div class="spieler">
+                        <h3>spigot.yml</h3>
+
+                        messages: <br>
+                            whitelist: You are not whitelisted on this server! <br>
+                            unknown-command: Unknown command. Type "/help" for help. <br>
+                            server-full: The server is full! <br>
+                            outdated-client: Outdated client! Please use {0} <br>
+                            outdated-server: Outdated server! I'm still on {0} <br>
+                            restart: Server is restarting <br>
+                        advancements: <br>
+                            disable-saving: false <br>
+                            disabled: <br>
+                            - minecraft:story/disabled <br>
+                        settings: <br>
+                            player-shuffle: 0 <br>
+                            timeout-time: 60 <br>
+                            restart-on-crash: true <br>
+                            restart-script: ./start.sh <br>
+                            bungeecord: false <br>
+                            save-user-cache-on-stop-only: false <br>
+                            sample-count: 12 <br>
+                            user-cache-size: 1000 <br>
+                            moved-wrongly-threshold: 0.0625 <br>
+                            moved-too-quickly-multiplier: 10.0 <br>
+                            netty-threads: 4 <br>
+                            attribute: <br>
+                                maxHealth: <br>
+                                    max: 2048.0 <br>
+                                movementSpeed: <br>
+                                    max: 2048.0 <br>
+                                attackDamage: <br>
+                                    max: 2048.0 <br>
+                            log-villager-deaths: true <br>
+                            log-named-deaths: true <br>
+                            debug: false <br>
+                        commands: <br>
+                            replace-commands: <br>
+                            - setblock <br>
+                            - summon <br>
+                            - testforblock <br>
+                            - tellraw <br>
+                            spam-exclusions: <br>
+                            - /skill <br>
+                            silent-commandblock-console: false <br>
+                            log: true <br>
+                            tab-complete: 0 <br>
+                            send-namespaced: true <br>
+                        world-settings: <br>
+                            default: <br>
+                                below-zero-generation-in-existing-chunks: true <br>
+                                view-distance: default <br>
+                                simulation-distance: default <br>
+                                thunder-chance: 100000 <br>
+                                merge-radius: <br>
+                                    item: 2.5 <br>
+                                    exp: 3.0 <br>
+                                mob-spawn-range: 8 <br>
+                                item-despawn-rate: 6000 <br>
+                                arrow-despawn-rate: 1200 <br>
+                                trident-despawn-rate: 1200 <br>
+                                zombie-aggressive-towards-villager: true <br>
+                                nerf-spawner-mobs: false <br>
+                                enable-zombie-pigmen-portal-spawns: true <br>
+                                wither-spawn-sound-radius: 0 <br>
+                                end-portal-sound-radius: 0 <br>
+                                hanging-tick-frequency: 100 <br>
+                                growth: <br>
+                                    cactus-modifier: 100 <br>
+                                    cane-modifier: 100 <br>
+                                    melon-modifier: 100 <br>
+                                    mushroom-modifier: 100 <br>
+                                    pumpkin-modifier: 100 <br>
+                                    sapling-modifier: 100 <br>
+                                    beetroot-modifier: 100 <br>
+                                    carrot-modifier: 100 <br>
+                                    potato-modifier: 100 <br>
+                                    torchflower-modifier: 100 <br>
+                                    wheat-modifier: 100 <br>
+                                    netherwart-modifier: 100 <br>
+                                    vine-modifier: 100 <br>
+                                    cocoa-modifier: 100 <br>
+                                    bamboo-modifier: 100 <br>
+                                    sweetberry-modifier: 100 <br>
+                                    kelp-modifier: 100 <br>
+                                    twistingvines-modifier: 100 <br>
+                                    weepingvines-modifier: 100 <br>
+                                    cavevines-modifier: 100 <br>
+                                    glowberry-modifier: 100 <br>
+                                    pitcherplant-modifier: 100 <br>
+                                entity-activation-range: <br>
+                                    animals: 32 <br>
+                                    monsters: 32 <br>
+                                    raiders: 48 <br>
+                                    misc: 16 <br>
+                                    water: 16 <br>
+                                    villagers: 32 <br>
+                                    flying-monsters: 32 <br>
+                                    wake-up-inactive: <br>
+                                        animals-max-per-tick: 4 <br>
+                                        animals-every: 1200 <br>
+                                        animals-for: 100 <br>
+                                        monsters-max-per-tick: 8 <br>
+                                        monsters-every: 400 <br>
+                                        monsters-for: 100 <br>
+                                        villagers-max-per-tick: 4 <br>
+                                        villagers-every: 600 <br>
+                                        villagers-for: 100 <br>
+                                        flying-monsters-max-per-tick: 8 <br>
+                                        flying-monsters-every: 200 <br>
+                                        flying-monsters-for: 100 <br>
+                                    villagers-work-immunity-after: 100 <br>
+                                    villagers-work-immunity-for: 20 <br>
+                                    villagers-active-for-panic: true <br>
+                                    tick-inactive-villagers: true <br>
+                                    ignore-spectators: false <br>
+                                entity-tracking-range: <br>
+                                    players: 48 <br>
+                                    animals: 48 <br>
+                                    monsters: 48 <br>
+                                    misc: 32 <br>
+                                    display: 128 <br>
+                                    other: 64 <br>
+                                ticks-per: <br>
+                                    hopper-transfer: 8 <br>
+                                    hopper-check: 1 <br>
+                                hopper-amount: 1 <br>
+                                hopper-can-load-chunks: false <br>
+                                dragon-death-sound-radius: 0 <br>
+                                seed-village: 10387312 <br>
+                                seed-desert: 14357617 <br>
+                                seed-igloo: 14357618 <br>
+                                seed-jungle: 14357619 <br>
+                                seed-swamp: 14357620 <br>
+                                seed-monument: 10387313 <br>
+                                seed-shipwreck: 165745295 <br>
+                                seed-ocean: 14357621 <br>
+                                seed-outpost: 165745296 <br>
+                                seed-endcity: 10387313 <br>
+                                seed-slime: 987234911 <br>
+                                seed-nether: 30084232 <br>
+                                seed-mansion: 10387319 <br>
+                                seed-fossil: 14357921 <br>
+                                seed-portal: 34222645 <br>
+                                seed-ancientcity: 20083232 <br>
+                                seed-trailruins: 83469867 <br>
+                                seed-buriedtreasure: 10387320 <br>
+                                seed-mineshaft: default <br>
+                                seed-stronghold: default <br>
+                                hunger: <br>
+                                    jump-walk-exhaustion: 0.05 <br>
+                                    jump-sprint-exhaustion: 0.2 <br>
+                                    combat-exhaustion: 0.1 <br>
+                                    regen-exhaustion: 6.0 <br>
+                                    swim-multiplier: 0.01 <br>
+                                    sprint-multiplier: 0.1 <br>
+                                    other-multiplier: 0.0 <br>
+                                max-tnt-per-tick: 100 <br>
+                                max-tick-time: <br>
+                                    tile: 50 <br>
+                                    entity: 50 <br>
+                                verbose: false <br>
+                        players: <br>
+                            disable-saving: false <br>
+                        config-version: 12 <br>
+                        stats: <br>
+                            disable-saving: false <br>
+                            forced-stats: {} <br>
+                    </div>
+                    <div class="spieler">
+                        <h3>bukkit.yml</h3>
+                        <p>
+                            settings:
+                                allow-end: true <br>
+                                warn-on-overload: true <br>
+                                permissions-file: permissions.yml <br>
+                                update-folder: update <br>
+                                plugin-profiling: false <br>
+                                connection-throttle: 4000 <br>
+                                query-plugins: true <br>
+                                deprecated-verbose: default <br>
+                                shutdown-message: Server closed <br>
+                                minimum-api: none <br>
+                                use-map-color-cache: true <br>
+                            spawn-limits: <br>
+                                monsters: 70 <br>
+                                animals: 10 <br>
+                                water-animals: 5 <br>
+                                water-ambient: 20 <br>
+                                water-underground-creature: 5 <br>
+                                axolotls: 5 <br>
+                                ambient: 15 <br>
+                            chunk-gc: <br>
+                                period-in-ticks: 600 <br>
+                            ticks-per: <br>
+                                animal-spawns: 400 <br>
+                                monster-spawns: 1 <br>
+                                water-spawns: 1 <br>
+                                water-ambient-spawns: 1 <br>
+                                water-underground-creature-spawns: 1 <br>
+                                axolotl-spawns: 1 <br>
+                                ambient-spawns: 1 <br>
+                                autosave: 6000 <br>
+                            aliases: now-in-commands.yml <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

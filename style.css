@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+body {
+    font-family: 'Mina', sans-serif;
+}
+.top {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-image: url(./img/8BitSMP.png);
+    justify-content: center;
+    color: #fff;
+    background-position-x: center;
+    background-position-y: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboard {
+    display: flex;
+    height: 100%;
+}
+.links {
+    background-color: rgb(187, 187, 187);
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+.links:hover {
+    background-color: rgb(169, 169, 255);
+    color: #000;
+}
+.link_active {
+    background-color: rgb(0,0,255);
+    color: #fff;
+}
+.usage {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.stop {
+    background-color: rgb(255,0,0);
+    padding: 10px;
+}
+.fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.bilder {
+    width: 24%;
+    height: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.screenshotlink {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.spielermanagement {
+    display: flex;
+}
+.spieler {
+    margin-right: 50px;
+}
+.plugins {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.waypointslink {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .links {
+        width: 100%;
+    }
+    .dashboard {
+        flex-direction: column;
+    }
+    .usage {
+        margin-left: 0px;
+    }
+    .margin {
+        margin-top: 30px;
+    }
+    .fotos {
+        flex-direction: column;
+    }
+    .bilder {
+        width: 100%;
+    }
+    .spieler {
+        margin-right: 0px;
+    }
+    .spielermanagement {
+        flex-direction: column;
+    }
+    .screenshotlink {
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .waypointslink {
+        margin-top: 40px;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
